@@ -5,6 +5,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      boxShadow: {
+        left: '-15px -5px 5px rgba(0,0,0,0.3)',
+      },
       colors: {
         primary: '#202225',
         secondary: '#5865f2',

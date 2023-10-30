@@ -1,7 +1,15 @@
 import './App';
-import SideBar from './components/Sidebar';
+import Header from './components/Header/Header';
+import SecondarySideBar from './components/SideBar/SecondarySideBar';
+import SideBar from './components/SideBar/SideBar';
 
 function App() {
-  return <SideBar />;
+  return (
+    <>
+      <Header />
+      <SideBar />
+      <SecondarySideBar />
+    </>
+  );
 }
 export default App;
