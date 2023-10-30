@@ -20,7 +20,7 @@
     @apply text-gray-200 hover:text-white px-3;
   }
   .header-button {
-    @apply relative text-gray-200 rounded-sm px-2 hover:bg-gray-600 hover:text-white;
+    @apply relative text-gray-200 rounded-sm  hover:bg-gray-600 hover:text-white px-2;
   }
 
   .header-tooltip {

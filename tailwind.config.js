@@ -6,8 +6,10 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        left: '-15px -5px 5px rgba(0,0,0,0.3)',
+        left: '-15px -1px 5px rgba(0,0,0,0.3)',
+        bottom: '-1px 1px 2px rgba(0,0,0,0.3)',
       },
+
       colors: {
         primary: '#202225',
         secondary: '#5865f2',
