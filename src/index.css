@@ -11,10 +11,10 @@
 
 @layer components {
   .sidebar-icon {
-    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-2xl bg-gray-800 text-green-500 hover:bg-secondary rounded-3xl hover:rounded-xl transition-all duration-150 ease-linear cursor-pointer z-50;
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-2xl bg-gray-800 text-blue-500 rounded-3xl hover:rounded-xl hover:bg-blue-600 transition-all duration-150 ease-linear cursor-pointer z-50;
   }
   .sidebar-tooltip {
-    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 origin-left scale-0;
+    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 origin-left scale-0 select-none;
   }
   .header-icon {
     @apply text-gray-200 hover:text-white px-3;
@@ -28,5 +28,8 @@
   }
   .add-friend-button {
     @apply px-2 text-white bg-green-600 rounded-md;
+  }
+  .second-bar-icons {
+    @apply flex justify-start items-center gap-8;
   }
 }
