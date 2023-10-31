@@ -8,7 +8,7 @@ import SidebarUser from '../User/User-section/SidebarUser';
 const SecondarySideBar = () => {
   return (
     <div className="flex flex-col bg-gray-800 fixed top-0 h-screen left-16 min-w-max m-0 z-10 gap-[2px]">
-      <div className="flex items-center h-12 shadow-bottom shadow-black px-2 mb-3">
+      <div className="flex items-center h-12 shadow-bottom shadow-black px-2 mb-3 min-h-[48px]">
         <button
           type="button"
           className="bg-gray-900 bg-opacity-80 text-gray-500 outline-none pl-[6px] py-1 text-sm rounded-md w-60 text-start cursor-pointer"
