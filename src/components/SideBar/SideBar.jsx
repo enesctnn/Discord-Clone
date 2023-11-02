@@ -40,7 +40,7 @@ export const SideBarIcon = ({
   <div className="sidebar-icon group">
     {icon}
     <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
-    <div className={isActive && 'sidebar-active'}></div>
+    <div className={isActive ? 'sidebar-active' : ''}></div>
   </div>
 );
 
