@@ -12,7 +12,7 @@ const Header = () => {
             Friends
           </label>
         </div>
-        <button className="header-button">Online</button>
+        <button className="header-button active">Online</button>
         <button className="header-button">All</button>
         <button className="header-button">Pending</button>
         <button className="header-button">Blocked</button>

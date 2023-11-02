@@ -16,16 +16,22 @@
   .sidebar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 origin-left scale-0 select-none;
   }
+  .sidebar-active {
+    @apply absolute bg-gray-400 w-1 h-7 left-[-5px] hover:bg-gray-100 rounded-2xl;
+  }
   .header-icon {
     @apply text-gray-200 hover:text-white px-3;
   }
   .header-button {
     @apply relative text-gray-200 rounded-sm  hover:bg-gray-600 hover:text-white px-2;
   }
-
+  .header-button.active {
+    @apply bg-gray-600;
+  }
   .header-tooltip {
     @apply absolute whitespace-nowrap p-2 top-14 left-0 scale-0 bg-gray-900 rounded-md text-sm font-normal transition-all origin-top duration-75;
   }
+
   .add-friend-button {
     @apply px-2 text-white bg-green-700 rounded-md font-normal;
   }

@@ -10,6 +10,7 @@ const SideBar = () => {
       <div>
         <SideBarIcon
           text="Discord"
+          isActive={true}
           icon={<BsDiscord size="28" color="white" />}
         />
         <div className="group relative transition-all">
@@ -31,10 +32,15 @@ const SideBar = () => {
   );
 };
 
-export const SideBarIcon = ({ icon, text = 'tooltip 💡' }) => (
+export const SideBarIcon = ({
+  icon,
+  text = 'tooltip 💡',
+  isActive = false,
+}) => (
   <div className="sidebar-icon group">
     {icon}
     <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <div className={isActive && 'sidebar-active'}></div>
   </div>
 );
 
